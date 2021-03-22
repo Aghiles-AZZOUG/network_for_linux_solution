@@ -1,0 +1,24 @@
+### French : 
+la solution : pour les pc nouveaux surtout, ce soucis est fréquent:  que ça soit avec les nouveaux lenovo ou même asus ... Donc la solution n'est ni Network Manager,ni autre, 
+pour eviter des soucis d'incompatibilité ,il faut connecter le pc à un reseau via une clée internet usb ou cable internet ou via le telephone en partageant la connexion en mode usb 
+Puis installer le linux avec la connexion pour mettre certains paquets puis telecharger le gcc et dkms via le terminal avec la version de notre linux , puis une mise a jour vite faite,
+
+puis exécuter ces commandes
+
+git clone https://github.com/Aghiles-AZZOUG/network_to_linux_solution
+cd network_to_linux_solution
+chmod +x dkms-install.sh
+sudo ./dkms-install.sh
+sudo modprobe 8821ce
+
+
+### English 
+When you install linux, you put your phone in usb cable widh sharing connexion mode USB, or cable enternet, or key usb internet.
+Since when you install linux with this connexion, upload all packages, and when you finished, you upload GCC and dkms and you refresh linux 'mise à jour)
+and put this command in your terminal
+
+git clone https://github.com/Aghiles-AZZOUG/network_to_linux_solution
+cd network_to_linux_solution
+chmod +x dkms-install.sh
+sudo ./dkms-install.sh
+sudo modprobe 8821ce
