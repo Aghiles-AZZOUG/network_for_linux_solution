@@ -13,7 +13,7 @@ This driver can be installed using [DKMS](http://linux.dell.com/dkms/). This is 
 ## Installation of Driver
 Make sure you have a proper build environment and `dkms` installed.
 
-# Fast Solution about Aghiles AZZOUG - steep by step
+#### Fast Solution about Aghiles AZZOUG - steep by step
 in french and englisg :  read file /step
 
 ### Ubuntu & Debian
