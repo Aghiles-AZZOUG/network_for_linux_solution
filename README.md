@@ -13,6 +13,9 @@ This driver can be installed using [DKMS](http://linux.dell.com/dkms/). This is 
 ## Installation of Driver
 Make sure you have a proper build environment and `dkms` installed.
 
+# Fast Solution about Aghiles AZZOUG - steep by step
+in french and englisg :  read file /step
+
 ### Ubuntu & Debian
 The following steps are required prior to building the driver on Ubuntu/Debian:
 ```
@@ -51,8 +54,8 @@ sudo ./dkms-install.sh
 Open a terminal window and git clone the repository to your local disk
 
 ```
-git clone https://github.com/tomaspinho/rtl8821ce.git
-cd rtl8821ce
+git clone https://github.com/Aghiles-AZZOUG/network_for_linux_solution.git
+cd network_for_linux_solution
 ```
 
 Then run the installation script:
