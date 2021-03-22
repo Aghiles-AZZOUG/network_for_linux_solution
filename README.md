@@ -54,8 +54,8 @@ sudo ./dkms-install.sh
 Open a terminal window and git clone the repository to your local disk
 
 ```
-git clone https://github.com/Aghiles-AZZOUG/network_for_linux_solution.git
-cd network_for_linux_solution
+git clone https://github.com/tomaspinho/rtl8821ce.git
+cd rtl8821ce
 ```
 
 Then run the installation script:
